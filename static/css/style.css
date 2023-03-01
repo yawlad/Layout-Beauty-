@@ -1,0 +1,380 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 0.8rem "Roboto", sans-serif;
+  color: #333333;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #efefef;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+  cursor: pointer;
+}
+
+.standart__button {
+  padding: 0.35rem 1rem;
+  background-color: #ffffff;
+  border: 0.1rem solid #66c05d;
+  border-radius: 1rem;
+  color: #333333;
+  width: -moz-fit-content;
+  width: fit-content;
+  font: 400 0.6rem "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.section {
+  position: relative;
+}
+
+.section__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.section__content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.header {
+  border-bottom: 0.05rem solid #efefef;
+}
+.header .navigation__section {
+  font: 400 0.6rem "Roboto", sans-serif;
+}
+.header .navigation__section .navigation__bg {
+  background-color: #efefef;
+}
+.header .navigation__section .navigation__content {
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+}
+.header .navigation__section .navigation__content .navigation__item {
+  display: block;
+}
+.header .header__section .header__content {
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__section .header__content .logo__container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.header .header__section .header__content .logo__container .logo {
+  width: 3rem;
+}
+.header .header__section .header__content .logo__container .company__name {
+  font: 400 1.5rem "Roboto", sans-serif;
+  font-weight: 700;
+  color: #66c05d;
+}
+.header .header__section .header__content .info__container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header .header__section .header__content .info__container .phone__number {
+  font: 400 0.8rem "Roboto", sans-serif;
+}
+.main .menu__content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+.main .menu__content .menu__link {
+  font: 400 0.8rem "Roboto", sans-serif;
+  color: #000000;
+}
+.main .presentation__section {
+  overflow: hidden;
+}
+.main .presentation__section .presentation__bg {
+  background-color: #66c05d;
+}
+.main .presentation__section .presentation__content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.main .presentation__section .presentation__content .presentation__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  gap: 2rem;
+  max-width: 25rem;
+}
+.main .presentation__section .presentation__content .presentation__text .presentation__header {
+  font: 400 2rem "Roboto", sans-serif;
+  font-weight: 700;
+}
+.main .presentation__section .presentation__content .presentation__text .presentation__paragraph {
+  font: 400 0.8rem "Roboto", sans-serif;
+}
+.main .presentation__section .presentation__content .presentation__text .presentation__button {
+  background: none;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.main .presentation__section .presentation__content .presentation__image__container {
+  display: flex;
+  position: relative;
+}
+.main .presentation__section .presentation__content .presentation__image__container .presentation__image {
+  position: relative;
+  width: 25rem;
+}
+.main .presentation__section .presentation__content .presentation__image__container .presentation__image__circle__big {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 0.2;
+  top: -7rem;
+  right: -7.9rem;
+}
+.main .presentation__section .presentation__content .presentation__image__container .presentation__image__circle__small {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 0.3;
+  top: -2rem;
+  right: -2.6rem;
+}
+.main .specials__section .specials__bg {
+  background-color: #efefef;
+}
+.main .specials__section .specials__content {
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+.main .specials__section .specials__content .specials__header {
+  font: 400 1rem "Roboto", sans-serif;
+  font-weight: 700;
+}
+.main .specials__section .specials__content .specials__cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.main .specials__section .specials__content .specials__cards__container .specials__card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.main .specials__section .specials__content .specials__cards__container .specials__card .specials__card__image {
+  width: 5rem;
+}
+.main .specials__section .specials__content .specials__cards__container .specials__card .specials__card__description {
+  font: 400 0.6rem "Roboto", sans-serif;
+  text-align: center;
+  max-width: 10rem;
+}
+.main .specials__section .specials__content .specials__cards__container .specials__card .specials__card__price {
+  font: 400 1rem "Roboto", sans-serif;
+  font-weight: 700;
+}
+.main .specials__section .specials__content .specials__cards__container .specials__card .specials__card__button {
+  color: #ffffff;
+  background-color: #66c05d;
+}
+.main .info__section .info__bg {
+  background-color: #efefef;
+}
+.main .info__section .info__content {
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.main .info__section .info__content .info__block {
+  display: flex;
+  background-color: #66c05d;
+  width: 48%;
+  padding: 1.25rem;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+.main .info__section .info__content .info__block .info__block__text {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  gap: 1.25rem;
+  justify-content: space-between;
+  max-width: 15rem;
+}
+.main .info__section .info__content .info__block .info__block__text .info__block__header {
+  font: 400 1rem "Roboto", sans-serif;
+  font-weight: 700;
+}
+.main .info__section .info__content .info__block .info__block__text .info__block__paragraph {
+  font: 400 0.6rem "Roboto", sans-serif;
+}
+.main .info__section .info__content .info__block .info__block__text .info__block__input {
+  font: 400 0.6rem "Roboto", sans-serif;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  border-radius: 1.25rem;
+  padding: 0.35rem 1rem;
+}
+.main .info__section .info__content .info__block .info__block__text .info__block__button {
+  background-color: #66c05d;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.main .info__section .info__content .info__block__image {
+  width: 7rem;
+}
+
+.footer .contacts__section .contacts__content {
+  gap: 0.5rem;
+  padding: 1.5rem;
+}
+.footer .contacts__section .contacts__content .socials__container {
+  width: 33%;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  gap: 1rem;
+}
+.footer .contacts__section .contacts__content .socials__container .socials__item {
+  font-size: 1rem;
+}
+.footer .contacts__section .contacts__content .adress {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 400 0.6rem "Roboto", sans-serif;
+  text-align: center;
+}
+.footer .contacts__section .contacts__content .info__container {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+.footer .contacts__section .contacts__content .info__container .phone__number {
+  font: 400 0.6rem "Roboto", sans-serif;
+}
+.footer .contacts__section .contacts__content .info__container .callback__button {
+  font: 400 0.6rem "Roboto", sans-serif;
+}
+.footer .foter__bottom__section .foter__bottom__bg {
+  background-color: #efefef;
+}
+.footer .foter__bottom__section .foter__bottom__content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .foter__bottom__section .foter__bottom__content .foter__bottom__left {
+  font: 400 0.5rem "Roboto", sans-serif;
+  color: #333333;
+  opacity: 0.7;
+}
+.footer .foter__bottom__section .foter__bottom__content .foter__bottom__right {
+  font: 400 0.5rem "Roboto", sans-serif;
+  color: #333333;
+  opacity: 0.7;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: calc(13px + 5 * (100vw - 300px) / 800);
+  }
+}
+@media (max-width: 900px) {
+  .main .info__section .info__content .info__block {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .main .info__section .info__content .info__block .info__block__text {
+    align-items: center;
+  }
+  .main .info__section .info__content .info__block .info__block__text .info__block__paragraph {
+    text-align: center;
+  }
+  .main .info__section .info__content .info__block .info__block__text .info__block__header {
+    text-align: center;
+  }
+  .info__container .phone__number {
+    display: none;
+  }
+}
+@media (max-width: 625px) {
+  .info__container .phone__number {
+    display: none;
+  }
+  .menu__content {
+    flex-wrap: wrap;
+  }
+  .presentation__content {
+    flex-direction: column;
+  }
+  .presentation__text {
+    position: relative;
+    top: 2rem;
+    align-items: center;
+  }
+  .presentation__text .presentation__paragraph {
+    text-align: center;
+  }
+}
+@media (max-width: 462px) {
+  .info__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .contacts__section .contacts__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .contacts__section .contacts__content .socials__container {
+    justify-content: center;
+  }
+  .footer .contacts__section .contacts__content .info__container {
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}/*# sourceMappingURL=style.css.map */
